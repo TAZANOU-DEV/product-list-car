@@ -1,0 +1,228 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+
+display: flex;
+background-color: whitesmoke;
+
+}
+
+.container{
+margin: 25px;
+padding: 25px;
+align-items: center;
+justify-content: center;
+display: flex;
+background-color: whitesmoke;
+
+}
+.content{
+height: 100%;
+width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+    
+
+    background-color: whitesmoke;
+
+}
+h1{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 10px;
+
+}
+
+.menu{
+
+    height: 400px;
+    width: 250px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+margin: 10px;
+    flex-direction: column;
+}
+.men{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-waffle-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+}
+.men1{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-creme-brulee-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+
+}
+.men2{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-macaron-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+}
+.men3{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-tiramisu-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+}
+.men4{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-baklava-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+}
+.men5{
+    background-image: url('../product list cart/product-list-with-cart-main/assets/images/image-meringue-desktop.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+    justify-content:center ;
+   display: flex;
+}
+
+button{
+    position: absolute;
+margin-top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    stroke-width: 3px;
+    border-color: red;
+    border-width: 1px;
+    
+
+}
+button:hover{
+background-color: brown;
+color: white;
+font-weight: bold;
+border-color: white;
+border-width:2 ;
+
+}
+
+
+
+.po{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    margin-top: 30px;
+
+}
+.wa{
+
+    font-size: smaller;
+    color: rgb(128, 128, 128);
+    margin-right: 204px;
+}
+.war{
+    font-weight: bolder;
+    font-size:large;
+    color: black;
+    margin-right: 100px;
+
+}
+.price{
+    color: red;
+    font-weight: 300;
+    margin-right: 204px;
+
+}
+p{
+    margin-top: 5px;
+}
+
+.aside{
+    height: 300px;
+    width:330px ;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align:center ;
+}
+.cart{
+
+    top: 20pt;
+    color: brown;
+    font-size:larger;
+    margin-right: 190px;
+
+}
+.cake{
+    margin-bottom: 20px;
+}
+
+.p{
+    color: rgba(65, 46, 46, 0.786);
+}
+img{
+
+color: brown;
+}
+img:hover{
+    color: white;
+}
+.link1{
+    text-decoration: none;
+    color: black;
+}
+.link1:hover{
+    color: white;
+    font-weight: bold;
+}
+
